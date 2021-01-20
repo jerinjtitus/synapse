@@ -242,7 +242,7 @@ exitcodes=0
     )
 
     # An nginx site config that will be amended to. To be placed in /etc/nginx/conf.d
-    nginx_config_template_header = r"""
+    nginx_config_template_header = """
 server {
     # List on an unoccupied port number
     listen 8080;
